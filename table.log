@@ -1,0 +1,87 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.7.4)  8 AUG 2019 21:25
+entering extended mode
+**./table.tex
+(table.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
+)
+*
+(Please type a command or say `\end')
+*pdflatex table.tex
+! Interruption.
+<*> 
+    pdflatex table.tex
+? ppfepdfllla#pfpfd 'c:\Users\josep\Dropbox\Dev\olja'; ${env:P
+YTHONIOENCODING}='UTF-8'; ${env:PYTHONUNBUFFERED}='1'; & 'C:\Users\josep\AppDat
+a\Local\Programs\Python\Python37\python.exe' 'c:\Users\josep\.vscode\extensions
+\ms-python.python-2019.6.24221\pythonFiles\ptvsd_launcher.py' '--default' '--cl
+ient' '--host' 'localhost' '--port' '54839' 'c:\Users\josep\Dropbox\Dev\olja\cr
+eate_table.py'
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, 
+H for help, X to quit.
+? c 'c:\Users\josep\Dropbox\Dev\olja'; ${env:PYTHONIOENCODING}='UTF-8'; ${env:P
+YTHONUNBUFFERED}='1'; & 'C:\Users\josep\AppData\Local\Programs\Python\Python37\
+python.exe' 'c:\Users\josep\.vscode\extensions\ms-python.python-2019.6.24221\py
+thonFiles\ptvsd_launcher.py' '--default' '--client' '--host' 'localhost' '--por
+t' '54848' 'c:\Users\josep\Dropbox\Dev\olja\create_table.py'
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, 
+H for help, X to quit.
+? cd 'c:\Users\josep\Dropbox\Dev\olja'; ${env:PYTHONIOENCODING}='UTF-8'; ${env:
+PYTHONUNBUFFERED}='1'; & 'C:\Users\josep\AppData\Local\Programs\Python\Python37
+\python.exe' 'c:\Users\josep\.vscode\extensions\ms-python.python-2019.6.24221\p
+ythonFiles\ptvsd_launcher.py' '--default' '--client' '--host' 'localhost' '--po
+rt' '54853' 'c:\Users\josep\Dropbox\Dev\olja\create_table.py'
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, 
+H for help, X to quit.
+? r
+OK, entering \nonstopmode...
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+<*> p
+     dflatex table.tex
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no p in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+! Emergency stop.
+<*> pdflatex table.tex
+                      
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 7 strings out of 493305
+ 141 string characters out of 3129803
+ 53825 words of memory out of 3000000
+ 3658 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 5i,0n,4p,430b,14s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
