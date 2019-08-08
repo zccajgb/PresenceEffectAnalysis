@@ -1,16 +1,16 @@
 from tabulate import tabulate
 from pdf2image import convert_from_path
-import os
+from pylatex import Document, NoEscape
+import subprocess
 
-def createtable(data, headers):
+def create_table(data, headers):
     table = tabulate(data, headers, "latex")
-    f = open("table.tex", "w+")
-    f.write("\\documentclass[12pt]{beamer} \n")
-    f.write("\\begin{document} \n")    
-    f.write(table)
-    f.write("\n \\end\{document\}")
+    
+    doc = Document()
 
-    os.system("pdflatex table.tex")
+    doc.append(NoEscape(table))
+
+    doc.generate_pdf()
 
     pages = convert_from_path("table.pdf")
     pages[1].save('table.png', 'PNG')
